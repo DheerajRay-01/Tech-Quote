@@ -6,7 +6,7 @@ function show(data) {
   console.log(data.content);
   console.log(data.author);
   console.log(data.length);
-  if (data.length < 180) {
+  if ( data.length < 185) {
     quote.innerHTML = `${data.content} `;
     author.innerHTML = `<h3>- ${data.author}</h3>`;
     quoteContainer.classList.remove("hidden"); 
